@@ -36,7 +36,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.nano"
+  default     = "t2.micro"
 }
 
 data "aws_ami" "hc-base-ubuntu-2404" {
